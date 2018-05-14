@@ -1,16 +1,16 @@
 /* 
-    Screen -   #C5C1C0
-    Steel -    #0A1612
-    Denim -    #1A2930
-    Marigold - #F7CE3E
+    White -   #C5C1C0
+    Dark Green -    #0A1612
+    Dark Blue -    #1A2930
+    Yellow - #F7CE3E
 */
 
 body {
-    background-color: #C5C1C0;
+    background-color: #1A2930;
 }
 
 header {
-    color: #1A2930;
+    color: #C5C1C0;
     font-size: 100px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,7 +21,7 @@ header {
 }
 
 p {
-    color: #1A2930;
+    color: #C5C1C0;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
@@ -30,7 +30,31 @@ p {
     margin-right: 10%;
 }
 
-.HeaderName {
+a {
     color: #F7CE3E;
-    text-shadow: 2px 2px 10px #1A2930;
+    animation: letterSpacingDefault 0.2s ease-in-out forwards;
+}
+
+a:hover {
+    animation: letterSpacingIncrease 0.2s ease-in-out forwards;
+}
+
+hr {
+    background-color: #C5C1C0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.headerName {
+    color: #F7CE3E;
+    transform: rotate(90);
+}
+
+@keyframes letterSpacingIncrease {
+    from { letter-spacing: inherit; }
+    to { letter-spacing: 3px; }
+}
+@keyframes letterSpacingDefault {
+    from { letter-spacing: 3px; }
+    to { letter-spacing: inherit; }
 }
