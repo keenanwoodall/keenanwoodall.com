@@ -32,11 +32,11 @@ p {
 
 a {
     color: #F7CE3E;
-    animation: letterSpacingDefault 0.2s ease-in-out forwards;
+    animation: linkButtonIdleAnim 0.2s ease-out forwards;
 }
 
 a:hover {
-    animation: letterSpacingIncrease 0.2s ease-in-out forwards;
+    animation: linkButtonHoverAnim 0.2s ease-out forwards;
 }
 
 hr {
@@ -50,11 +50,33 @@ hr {
     transform: rotate(90);
 }
 
-@keyframes letterSpacingIncrease {
-    from { letter-spacing: inherit; }
-    to { letter-spacing: 3px; }
+.linkButton {
+    color: #F7CE3E;
+    outline-color: #F7CE3E;
+    outline-width: 2px;
+    outline-style: outset;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
 }
-@keyframes letterSpacingDefault {
-    from { letter-spacing: 3px; }
-    to { letter-spacing: inherit; }
+
+@keyframes linkButtonHoverAnim {
+    from {
+        color: #F7CE3E;
+        letter-spacing: inherit; 
+    }
+    to {
+        color: #C5C1C0;
+        letter-spacing: 5px; 
+    }
+}
+@keyframes linkButtonIdleAnim {
+    from {
+        color: #C5C1C0;
+        letter-spacing: 5px;
+    }
+    to {
+        color: #F7CE3E;
+        letter-spacing: inherit;
+    }
 }
