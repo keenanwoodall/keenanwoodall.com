@@ -50,6 +50,17 @@ hr {
     transform: rotate(90);
 }
 
+.intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: start;
+}
+
+.checkMeOut {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 .linkButton {
     color: #F7CE3E;
     outline-color: #F7CE3E;
