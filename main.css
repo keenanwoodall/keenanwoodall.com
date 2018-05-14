@@ -63,10 +63,10 @@ hr {
 
 .linkButton {
     color: #F7CE3E;
+    text-decoration: none;
     outline-color: #F7CE3E;
     outline-width: 2px;
     outline-style: outset;
-    text-decoration: none;
     padding: 10px;
     margin: 10px;
 }
