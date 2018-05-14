@@ -16,6 +16,8 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 p {
@@ -24,4 +26,11 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.HeaderName {
+    color: #F7CE3E;
+    text-shadow: 2px 2px 10px #1A2930;
 }
