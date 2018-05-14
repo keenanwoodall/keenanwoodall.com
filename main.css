@@ -1,0 +1,27 @@
+/* 
+    Screen -   #C5C1C0
+    Steel -    #0A1612
+    Denim -    #1A2930
+    Marigold - #F7CE3E
+*/
+
+body {
+    background-color: #C5C1C0;
+}
+
+header {
+    color: #1A2930;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+p {
+    color: #1A2930;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
