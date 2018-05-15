@@ -11,10 +11,10 @@ body {
 
 header {
     color: #C5C1C0;
-    font-size: 5vw;
+    font-size: 7em;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0.2vw;
+    letter-spacing: 2px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -22,9 +22,9 @@ header {
 
 p {
     color: #C5C1C0;
-    font-size: 1.5vw;
+    font-size: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: .2vw;
+    letter-spacing: 2px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -63,7 +63,7 @@ hr {
     animation: linkButtonIdleAnim 0.2s ease-out forwards;
     text-decoration: none;
     outline-color: #F7CE3E;
-    outline-width: 0.2vw;
+    outline-width: 2px;
     outline-style: outset;
     padding: 10px;
     margin: 10px;
@@ -86,13 +86,13 @@ hr {
     }
     to {
         color: #C5C1C0;
-        letter-spacing: 0.3vw; 
+        letter-spacing: 3px; 
     }
 }
 @keyframes linkButtonIdleAnim {
     from {
         color: #C5C1C0;
-        letter-spacing: 0.3vw;
+        letter-spacing: 3px;
     }
     to {
         color: #F7CE3E;
