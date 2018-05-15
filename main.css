@@ -1,8 +1,8 @@
 /* 
-    White -   #C5C1C0
+    White -         #C5C1C0
     Dark Green -    #0A1612
-    Dark Blue -    #1A2930
-    Yellow - #F7CE3E
+    Dark Blue -     #1A2930
+    Yellow -        #F7CE3E
 */
 
 body {
@@ -30,14 +30,6 @@ p {
     margin-right: 10%;
 }
 
-a {
-    color: #F7CE3E;
-    animation: linkButtonIdleAnim 0.2s ease-out forwards;
-}
-
-a:hover {
-    animation: linkButtonHoverAnim 0.2s ease-out forwards;
-}
 
 hr {
     background-color: #C5C1C0;
@@ -53,7 +45,12 @@ hr {
 .intro {
     margin-left: 10%;
     margin-right: 10%;
-    text-align: justify;
+    text-align: left;
+}
+
+.comment {
+    color: #F7CE3E;
+    font-style: italic;
 }
 
 .checkMeOut {
@@ -63,12 +60,23 @@ hr {
 
 .linkButton {
     color: #F7CE3E;
+    animation: linkButtonIdleAnim 0.2s ease-out forwards;
     text-decoration: none;
     outline-color: #F7CE3E;
     outline-width: 2px;
     outline-style: outset;
     padding: 10px;
     margin: 10px;
+}
+
+.linkButton:hover {
+    animation: linkButtonHoverAnim 0.2s ease-out forwards;
+}
+
+.link {
+    color: #F7CE3E;
+    text-decoration: none;
+    letter-spacing: normal;
 }
 
 @keyframes linkButtonHoverAnim {
@@ -78,13 +86,13 @@ hr {
     }
     to {
         color: #C5C1C0;
-        letter-spacing: 5px; 
+        letter-spacing: 3px; 
     }
 }
 @keyframes linkButtonIdleAnim {
     from {
         color: #C5C1C0;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
     }
     to {
         color: #F7CE3E;
