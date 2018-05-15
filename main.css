@@ -1,12 +1,5 @@
-/* 
-    White -         #C5C1C0
-    Dark Green -    #0A1612
-    Dark Blue -     #1A2930
-    Yellow -        #F7CE3E
-*/
-
 body {
-    background-color: #1A2930;
+    background-color: rgb(26, 41, 48);
 }
 
 header {
@@ -37,7 +30,21 @@ hr {
     margin-right: 10%;
 }
 
-.headerName {
+#overlay {
+    animation: fadeOutAnim 1s ease-in-out forwards;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1A2930;
+    z-index: 2;
+}
+
+#headerName {
     color: #F7CE3E;
 }
 
@@ -82,6 +89,15 @@ hr {
 .link:hover {
     text-decoration: #F7CE3E;
     text-decoration-line: underline;
+}
+
+@keyframes fadeOutAnim {
+    from {
+        background-color: rgb(26, 41, 48);
+    }
+    to {
+        background-color: rgba(26, 41, 48, 0);
+    }
 }
 
 @keyframes linkButtonHoverAnim {
