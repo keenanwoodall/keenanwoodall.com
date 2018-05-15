@@ -79,6 +79,11 @@ hr {
     letter-spacing: normal;
 }
 
+.link:hover {
+    text-decoration: #F7CE3E;
+    text-decoration-line: underline;
+}
+
 @keyframes linkButtonHoverAnim {
     from {
         color: #F7CE3E;
