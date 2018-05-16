@@ -81,12 +81,14 @@ hr {
 }
 
 .link {
-    color: #F7CE3E;
+    color: #C5C1C0;
+    font-weight: 500;
     text-decoration: none;
     letter-spacing: normal;
 }
 
 .link:hover {
+    color: #F7CE3E;
     text-decoration: #F7CE3E;
     text-decoration-line: underline;
 }
