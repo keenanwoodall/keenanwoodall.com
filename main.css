@@ -81,6 +81,7 @@ hr {
 }
 
 .link {
+    transition-duration: 0.5s;
     color: #C5C1C0;
     font-weight: 500;
     text-decoration: none;
@@ -88,9 +89,9 @@ hr {
 }
 
 .link:hover {
+    transition-duration: 0.5s;
     color: #F7CE3E;
     text-decoration: #F7CE3E;
-    text-decoration-line: underline;
 }
 
 @keyframes fadeOutAnim {
