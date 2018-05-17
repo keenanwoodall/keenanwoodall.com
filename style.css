@@ -1,23 +1,23 @@
+html, body, a, ul, li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    color: #C5C1C0;
+}
+
 body {
     background-color: rgb(26, 41, 48);
 }
 
 header {
-    color: #C5C1C0;
     font-size: 7em;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 2px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 p {
-    color: #C5C1C0;
     font-size: 2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 2px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -25,7 +25,6 @@ p {
 
 
 hr {
-    background-color: #C5C1C0;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -48,6 +47,11 @@ hr {
     color: #F7CE3E;
 }
 
+#checkMeOut {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 .intro {
     margin-left: 10%;
     margin-right: 10%;
@@ -59,12 +63,8 @@ hr {
     font-style: italic;
 }
 
-.checkMeOut {
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
 .linkButton {
+    transition: 0.2s;
     color: #F7CE3E;
     animation: linkButtonIdleAnim 0.2s ease-out forwards;
     text-decoration: none;
@@ -72,17 +72,19 @@ hr {
     outline-width: 2px;
     outline-style: outset;
     display: inline-block;
+    letter-spacing: inherit;
     padding: 10px;
     margin: 10px;
 }
 
 .linkButton:hover {
-    animation: linkButtonHoverAnim 0.2s ease-out forwards;
+    transition: 0.2s;
+    color: #C5C1C0;
+    letter-spacing: 3px; 
 }
 
 .link {
     transition-duration: 0.5s;
-    color: #C5C1C0;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: normal;
@@ -102,24 +104,4 @@ hr {
         background-color: rgba(26, 41, 48, 0);
     }
 }
-
-@keyframes linkButtonHoverAnim {
-    from {
-        color: #F7CE3E;
-        letter-spacing: inherit; 
-    }
-    to {
-        color: #C5C1C0;
-        letter-spacing: 3px; 
-    }
-}
-@keyframes linkButtonIdleAnim {
-    from {
-        color: #C5C1C0;
-        letter-spacing: 3px;
-    }
-    to {
-        color: #F7CE3E;
-        letter-spacing: inherit;
-    }
 }
