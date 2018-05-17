@@ -1,4 +1,5 @@
 html, body, a, ul, li {
+    font-size: 1.7vmax;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
     color: #C5C1C0;
@@ -17,7 +18,6 @@ header {
 }
 
 p {
-    font-size: 1.7vmax;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
