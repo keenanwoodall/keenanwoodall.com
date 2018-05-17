@@ -69,7 +69,7 @@ hr {
     animation: linkButtonIdleAnim 0.2s ease-out forwards;
     text-decoration: none;
     outline-color: #F7CE3E;
-    outline-width: 2px;
+    outline-width: 0.15vmax;
     outline-style: outset;
     display: inline-block;
     letter-spacing: inherit;
