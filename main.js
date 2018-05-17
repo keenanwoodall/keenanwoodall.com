@@ -1,6 +1,11 @@
-window.onload = disableOverlay;
+window.onload = onLoad;
 
-function disableOverlay ()
+function onLoad ()
+{
+    fadeOutOverlay ();
+}
+
+function fadeOutOverlay ()
 {
     setTimeout (function ()
         {   
