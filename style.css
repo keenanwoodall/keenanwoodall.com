@@ -1,7 +1,7 @@
 html, body, a, ul, li {
     font-size: 1.7vmax;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 0.1vmax;
     color: #C5C1C0;
 }
 
@@ -75,14 +75,14 @@ hr {
 .linkButton:hover {
     transition: 0.2s;
     color: #C5C1C0;
-    letter-spacing: 3px; 
+    letter-spacing: 0.3vmax;
 }
 
 .link {
     transition-duration: 0.5s;
     font-weight: 500;
     text-decoration: none;
-    letter-spacing: normal;
+    letter-spacing: 0.05vmax;
 }
 
 .link:hover {
