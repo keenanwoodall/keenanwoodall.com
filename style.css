@@ -1,4 +1,5 @@
 html, body, a, ul, li {
+    text-align: center;
     font-size: 1.7vmax;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.1vmax;
@@ -12,13 +13,11 @@ body {
 header {
     font-size: 6vmax;
     font-weight: bold;
-    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 p {
-    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -45,6 +44,10 @@ hr {
 
 #headerName {
     color: #F7CE3E;
+}
+
+#subHeader {
+    font-size: 2vmax;
 }
 
 .intro {
