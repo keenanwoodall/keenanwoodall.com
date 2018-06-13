@@ -31,7 +31,6 @@ function resizeVideos ()
         var element = videos[i];
         var aspectRatio = element.getAttribute ("aspectratio");
 
-
         element.setAttribute ("width", (newWidth * 0.8));
         element.setAttribute ("height", (newWidth * 0.8) * aspectRatio);
     }
