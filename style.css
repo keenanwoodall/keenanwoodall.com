@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    color: white;
     font-size: 6vmax;
     font-weight: bold;
     margin-left: 10%;
@@ -47,6 +48,7 @@ hr {
 }
 
 #subHeader {
+    color: white;
     font-size: 2vmax;
 }
 
@@ -104,7 +106,7 @@ hr {
 .link:hover {
     transition-duration: 0.5s;
     color: #F7CE3E;
-    text-decoration: #F7CE3E;
+    text-decoration: underline #F7CE3E;
 }
 
 @keyframes fadeOutAnim {
