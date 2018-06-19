@@ -29,7 +29,7 @@ hr {
 }
 
 #overlay {
-    animation: fadeOutAnim 1s ease-in-out forwards;
+    animation: fadeOutAnim 2s ease-in-out forwards;
     position: fixed;
     display: block;
     width: 100%;
