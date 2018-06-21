@@ -65,6 +65,11 @@ hr {
     font-size: 2vmax;
 }
 
+#subHeader:hover .link{
+    color: #F7CE3E;
+    font-size: 2vmax;
+}
+
 #demoReel {
     position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
