@@ -3,8 +3,11 @@ window.onresize = resizeVideos;
 
 function onLoad ()
 {
+    document.getElementById ("preloadOverlay").setAttribute ("id", "overlay");
+
     cacheAspectRatio ();
     resizeVideos ();
+    setDuration ();
     disableOverlay ();
 }
 
@@ -19,6 +22,14 @@ function cacheAspectRatio ()
         element.removeAttribute ("height");
         element.setAttribute ("aspectratio", aspectRatio);
     }
+}
+
+function setDuration ()
+{
+    var e = document.getElementById ("duration");
+    var difference = Date.now () - new Date (1400976000000);
+    var d = Math.abs (new Date (difference).getUTCFullYear () - 1970);
+    e.innerText = d;
 }
 
 function resizeVideos ()
