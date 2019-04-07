@@ -27,7 +27,7 @@ function cacheAspectRatio ()
 function setDuration ()
 {
     var e = document.getElementById ("duration");
-    var difference = Date.now () - new Date (1400976000000);
+    var difference = Date.now () - new Date (1375362000000);
     var d = Math.abs (new Date (difference).getUTCFullYear () - 1970);
     e.innerText = d;
 }
