@@ -1,10 +1,12 @@
 title: Keenan Woodall
 email: keenanwoodall@gmail.com
 description:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://keenanwoodall.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://keenanwoodall.com"
+google-analytics: UA-119527175-1
 twitter_username: keenanwoodall
 github_username:  keenanwoodall
+youtube: keenanwoodall
 
 # Build settings
 theme: minima
