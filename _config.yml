@@ -6,8 +6,32 @@ url: "https://keenanwoodall.com"
 google-analytics: UA-119527175-1
 twitter_username: keenanwoodall
 github_username:  keenanwoodall
-youtube: keenanwoodall
+youtube_username: keenanwoodall
 
+disqus:
+  shortname: keenanwoodall
+
+paginate: 5
+paginate_path: posts/page:num/
+
+show_excerpts: true
+
+header_pages:
+  - about.md
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      comments: false
+  -
+    scope:
+      path: "_posts/tutorials"
+    values:
+      layout: "post"
+      category: "tutorials"
+  
 # Build settings
 theme: minima
 plugins:
@@ -16,6 +40,3 @@ plugins:
 
 gems:
   - jekyll-paginate
-
-paginate: 10
-paginate_path: posts/page:num/

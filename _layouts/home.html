@@ -3,9 +3,6 @@ layout: default
 ---
 
 <div class="home">
-
-  {{ content }}
-
   {% assign posts = site.posts %}
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -16,7 +13,6 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
 
   <ul class="post-list">
     {% for post in posts %}
@@ -35,7 +31,7 @@ layout: default
     {%- endfor -%}
   </ul>
 
-  {% if site.paginate %}
+  {% if paginator.total_posts > paginator.per_page %}
   <div class="pagination">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Previous</a>
