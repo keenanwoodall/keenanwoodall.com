@@ -17,7 +17,9 @@ paginate_path: posts/page:num/
 show_excerpts: true
 
 header_pages:
+  - index.html
   - about.md
+  - resume.html
 
 defaults:
   -
