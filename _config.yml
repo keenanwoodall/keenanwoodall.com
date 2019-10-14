@@ -33,7 +33,7 @@ defaults:
     values:
       layout: "post"
       category: "tutorials"
-  
+
 # Build settings
 theme: minima
 plugins:
